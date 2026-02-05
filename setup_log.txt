@@ -1,0 +1,95 @@
+Starting setup... 
+Python 3.14.0
+Creating virtual environment... 
+Activating venv and installing requirements... 
+Collecting annotated-types==0.5.0 (from -r requirements.txt (line 1))
+  Downloading annotated_types-0.5.0-py3-none-any.whl.metadata (11 kB)
+Collecting asgiref==3.8.1 (from -r requirements.txt (line 2))
+  Downloading asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting async-timeout==4.0.2 (from -r requirements.txt (line 3))
+  Downloading async_timeout-4.0.2-py3-none-any.whl.metadata (4.2 kB)
+Collecting black==23.7.0 (from -r requirements.txt (line 4))
+  Downloading black-23.7.0-py3-none-any.whl.metadata (63 kB)
+Collecting bleach==6.0.0 (from -r requirements.txt (line 5))
+  Downloading bleach-6.0.0-py3-none-any.whl.metadata (29 kB)
+Collecting boto3==1.26.141 (from -r requirements.txt (line 6))
+  Downloading boto3-1.26.141-py3-none-any.whl.metadata (7.0 kB)
+Collecting botocore==1.29.141 (from -r requirements.txt (line 7))
+  Downloading botocore-1.29.141-py3-none-any.whl.metadata (5.9 kB)
+Collecting celery==5.5.0b1 (from -r requirements.txt (line 8))
+  Downloading celery-5.5.0b1-py3-none-any.whl.metadata (21 kB)
+Collecting certifi==2022.12.7 (from -r requirements.txt (line 9))
+  Downloading certifi-2022.12.7-py3-none-any.whl.metadata (2.9 kB)
+Collecting cfgv==3.3.1 (from -r requirements.txt (line 10))
+  Downloading cfgv-3.3.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting charset-normalizer==3.0.1 (from -r requirements.txt (line 11))
+  Downloading charset_normalizer-3.0.1-py3-none-any.whl.metadata (27 kB)
+Collecting click==8.1.6 (from -r requirements.txt (line 12))
+  Downloading click-8.1.6-py3-none-any.whl.metadata (3.0 kB)
+Collecting cramjam==2.9.0 (from -r requirements.txt (line 13))
+  Downloading cramjam-2.9.0.tar.gz (47 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  Preparing metadata (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  [36 lines of output]
+  Python reports SOABI: cp314-win_amd64
+  Computed rustc target triple: x86_64-pc-windows-msvc
+  Installation directory: C:\Users\KLAKKLIK ID\AppData\Local\puccinialin\puccinialin\Cache
+  Downloading rustup-init from https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
+  Checking for Rust toolchain....
+  Rust not found, installing into a temporary directory
+  
+  Downloading rustup-init:   0%|          | 0.00/13.6M [00:00<?, ?B/s]
+  Downloading rustup-init:   8%|8         | 1.11M/13.6M [00:00<00:01, 11.0MB/s]
+  Downloading rustup-init:  21%|##        | 2.80M/13.6M [00:00<00:00, 14.0MB/s]
+  Downloading rustup-init:  33%|###3      | 4.54M/13.6M [00:00<00:00, 15.3MB/s]
+  Downloading rustup-init:  45%|####4     | 6.08M/13.6M [00:00<00:00, 13.0MB/s]
+  Downloading rustup-init:  61%|######    | 8.21M/13.6M [00:00<00:00, 15.7MB/s]
+  Downloading rustup-init:  73%|#######2  | 9.88M/13.6M [00:00<00:00, 16.0MB/s]
+  Downloading rustup-init:  87%|########6 | 11.7M/13.6M [00:00<00:00, 16.6MB/s]
+  Downloading rustup-init: 100%|##########| 13.6M/13.6M [00:00<00:00, 15.8MB/s]
+  Installing rust to C:\Users\KLAKKLIK ID\AppData\Local\puccinialin\puccinialin\Cache\rustup
+  warn: installing msvc toolchain without its prerequisites
+  info: profile set to 'minimal'
+  info: default host triple is x86_64-pc-windows-msvc
+  info: syncing channel updates for 'stable-x86_64-pc-windows-msvc'
+  info: latest update on 2026-01-22, rust version 1.93.0 (254b59607 2026-01-19)
+  info: downloading component 'cargo'
+  info: downloading component 'rust-std'
+  info: downloading component 'rustc'
+  info: installing component 'cargo'
+  info: installing component 'rust-std'
+  info: installing component 'rustc'
+  info: default toolchain set to 'stable-x86_64-pc-windows-msvc'
+  Checking if cargo is installed
+  cargo 1.93.0 (083ac5135 2025-12-15)
+  
+  Cargo, the Rust package manager, is not installed or is not on PATH.
+  This package requires Rust and Cargo to compile extensions. Install it through
+  the system's package manager or via https://rustup.rs/
+  
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.2 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: metadata-generation-failed
+
+Encountered error while generating package metadata.
+
+See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Setup complete. 

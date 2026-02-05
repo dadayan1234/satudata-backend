@@ -1,0 +1,7 @@
+Checking DB tools... 
+'docker' is not recognized as an internal or external command,
+operable program or batch file.
+Docker not found 
+'psql' is not recognized as an internal or external command,
+operable program or batch file.
+Postgres not found 
